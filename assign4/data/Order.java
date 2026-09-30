@@ -51,7 +51,7 @@ public class Order {
 		  
 	  }
 	  
-	  public Order(int orderID; String customerName; String product, double totalAmount, String orderDate) {
+	  public Order(int orderID, String customerName, String product, double totalAmount, String orderDate) {
 		  this.setOrderID(orderID);
 		  this.setCustomerName(customerName);
 		  this.setProduct(product);
